@@ -1,4 +1,4 @@
- import {
+import {
     HardDrive,
     KeyRound,
     Layers3,
@@ -47,12 +47,21 @@ export const examples = [
 
 
 export const crud = [
-  {
-    id: 1,
-    method: 'Create',
-    verb: 'Post',
-    description: 'Cria uma série via API Route - BackEnd Intermediário.',
-    color: 'orange',
-    Icon: PlusCircle,
-  },
-]
+    {
+        id: 1,
+        method: 'Create',
+        verb: 'Post',
+        description: 'Cria uma série via API Route - BackEnd Intermediário.',
+        color: 'orange',
+        Icon: PlusCircle,
+    },
+    {
+        id: 2,
+        method: 'Read',
+        verb: 'Get',
+        description: 'Lista séries no SSR e busca pelo id em rota dinâmica via.',
+        color: 'green',
+        Icon: List,
+    },    
+];
+
