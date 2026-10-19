@@ -62,6 +62,22 @@ export const crud = [
         description: 'Lista séries no SSR e busca pelo id em rota dinâmica via.',
         color: 'green',
         Icon: List,
-    },    
+    },      
+    {
+        id: 3,
+        method: 'Update',
+        verb: 'Put',
+        description: 'Atualiza série existente pelo ID',
+        color: 'blue',
+        Icon: SquarePen,
+    },
+    {
+        id: 4,
+        method: 'Delete',
+        verb: 'Delete',
+        description: 'Remove série existente pelo ID',
+        color: 'red',
+        Icon: Trash2,
+    },      
 ];
 
